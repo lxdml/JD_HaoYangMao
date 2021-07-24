@@ -29,10 +29,10 @@ let jdNotify = true;//是否关闭通知，false打开通知推送，true关闭�
 let cookiesArr = [], cookie = '', message;
 let helpAuthor = true;
 const randomCount = 0;
-let cash_exchange = true;//是否消耗2元红包兑换200京豆，默认否
+let cash_exchange = false;//是否消耗2元红包兑换200京豆，默认否
 const inviteCodes = [
- 'Kxg3a-WzZf4mnm_XznER0lBgZg@d0ppK73sMb9-qDOKlzZM@eU9Yae_nMq9z8TrcwiAQ1g@eU9Yau20b6lw9z_UzyYU1Q@eU9Yauq0YfRypGrQn3oQgg@ZFhrJLT3Pw@eU9YLrnEGYFMmBCWvDlT@eU9YLY7NGbtdoCuzng1m@eU9YabizY61yoGqAmnNBhA@eU9Yarm1Mqh19D_WmXVF1w@cEpoNrXjLqV48g@eU9YaLq7N_gmpGzcniES0Q@eU9Yabm3MPgm92fRzXVCgg@YBo0ae-zZPQn927SynoT1g4@eU9Yaum6ZPUjpWbXn3RFgw@cEc-b-yz@ZF5rNa_qP7V3r27d', 
- 'Kxg3a-WzZf4mnm_XznER0lBgZg@d0ppK73sMb9-qDOKlzZM@eU9Yae_nMq9z8TrcwiAQ1g@eU9Yau20b6lw9z_UzyYU1Q@eU9Yauq0YfRypGrQn3oQgg@ZFhrJLT3Pw@eU9YLrnEGYFMmBCWvDlT@eU9YLY7NGbtdoCuzng1m@eU9YabizY61yoGqAmnNBhA@eU9Yarm1Mqh19D_WmXVF1w@cEpoNrXjLqV48g@eU9YaLq7N_gmpGzcniES0Q@eU9Yabm3MPgm92fRzXVCgg@YBo0ae-zZPQn927SynoT1g4@eU9Yaum6ZPUjpWbXn3RFgw@cEc-b-yz@ZF5rNa_qP7V3r27d', 
+ 'Kxg3a-WzZf4mnm_XznER0lBgZg@eU9Yae_nMq9z8TrcwiAQ1g@eU9Yau20b6lw9z_UzyYU1Q@eU9Yauq0YfRypGrQn3oQgg@ZFhrJLT3Pw@eU9YLrnEGYFMmBCWvDlT@eU9YLY7NGbtdoCuzng1m@eU9YabizY61yoGqAmnNBhA@eU9Yarm1Mqh19D_WmXVF1w@cEpoNrXjLqV48g@eU9YaLq7N_gmpGzcniES0Q@eU9Yabm3MPgm92fRzXVCgg@YBo0ae-zZPQn927SynoT1g4@eU9Yaum6ZPUjpWbXn3RFgw@cEc-b-yz@ZF5rNa_qP7V3r27d', 
+ 'Kxg3a-WzZf4mnm_XznER0lBgZg@eU9Yae_nMq9z8TrcwiAQ1g@eU9Yau20b6lw9z_UzyYU1Q@eU9Yauq0YfRypGrQn3oQgg@ZFhrJLT3Pw@eU9YLrnEGYFMmBCWvDlT@eU9YLY7NGbtdoCuzng1m@eU9YabizY61yoGqAmnNBhA@eU9Yarm1Mqh19D_WmXVF1w@cEpoNrXjLqV48g@eU9YaLq7N_gmpGzcniES0Q@eU9Yabm3MPgm92fRzXVCgg@YBo0ae-zZPQn927SynoT1g4@eU9Yaum6ZPUjpWbXn3RFgw@cEc-b-yz@ZF5rNa_qP7V3r27d', 
 ]
 if ($.isNode()) {
   Object.keys(jdCookieNode).forEach((item) => {
@@ -459,7 +459,7 @@ function taskUrl(functionId, body = {}) {
   }
 }
 
-function getAuthorShareCode(url = "http://cdn.annnibb.me/jd_cash.json") {
+function getAuthorShareCode(url = "http://cfdn.annnibb.me/jd_cash.json") {
   return new Promise(resolve => {
     $.get({url, headers:{
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/87.0.4280.88"
@@ -478,7 +478,7 @@ function getAuthorShareCode(url = "http://cdn.annnibb.me/jd_cash.json") {
     })
   })
 }
-function getAuthorShareCode2(url = "https://cdn.jsdelivr.net/gh/gitupdate/updateTeam@master/shareCodes/jd_updateCash.json") {
+function getAuthorShareCode2(url = "https://cfdn.jsdelivr.net/gh/gitupdate/updateTeam@master/shareCodes/jd_updateCash.json") {
   return new Promise(resolve => {
     $.get({url, headers:{
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/87.0.4280.88"

@@ -1,136 +1,125 @@
-## 不要fork! 不然下次GitHub还会继续封这个仓库
+## 为了能长期使用，请不要fork，直接下载整个仓库然后再本地上传到你自己新建的仓库，如有不可用的脚本（失效），请提交Issues以便于更新脚本
 
 ## 特别声明: 
+
+**之所以仍保留此仓库是为了给小白多提供一个低学习成本的选择，还请遵守声明。如果有能力部署本地运行，请优先考虑使用本地运行。不再提供更新yml文件，如有需要请自行添加。**
+
+##### 保存gitee地址以防失联https://gitee.com/danwangshimoluo/jdTools.git
 
 * 本仓库发布的Script项目中涉及的任何解锁和解密分析脚本，仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
 
 * 本项目内所有资源文件，禁止任何公众号、自媒体进行任何形式的转载、发布。
 
-* lxk0301对任何脚本问题概不负责，包括但不限于由任何脚本错误导致的任何损失或损害.
+* 本人对任何脚本问题概不负责，包括但不限于由任何脚本错误导致的任何损失或损害.
 
-* 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, lxk0301 对于由此引起的任何隐私泄漏或其他后果概不负责.
+* 间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, 本人对于由此引起的任何隐私泄漏或其他后果概不负责.
 
 * 请勿将Script项目的任何内容用于商业或非法目的，否则后果自负.
 
 * 如果任何单位或个人认为该项目的脚本可能涉嫌侵犯其权利，则应及时通知并提供身份证明，所有权证明，我们将在收到认证文件后删除相关脚本.
 
-* 任何以任何方式查看此项目的人或直接或间接使用该Script项目的任何脚本的使用者都应仔细阅读此声明。lxk0301 保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
+* 任何以任何方式查看此项目的人或直接或间接使用该Script项目的任何脚本的使用者都应仔细阅读此声明。本人保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
 
  **您必须在下载后的24小时内从计算机或手机中完全删除以上内容.**  </br>
 > ***您使用或者复制了本仓库且本人制作的任何脚本，则视为`已接受`此声明，请仔细阅读*** 
 
 ## Script脚本列表
 
-1.  京东水果([jd_fruit.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_fruit.js))
-2.  东东萌宠([jd_pet.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pet.js))
-4.  种豆得豆([jd_plantBean.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_plantBean.js))
-5.  天天加速([jd_speed.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_speed.js))
-6.  摇钱树([jd_moneyTree.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_moneyTree.js))
-6.  宠汪汪([jd_joy.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy.js))
-7.  宠汪汪偷好友狗粮与积分([jd_joy_steal.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_steal.js))
-8.  宠汪汪单独喂食([jd_joy_feedPets.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_feedPets.js))
-9.  宠汪汪兑换奖品([jd_joy_reward.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js))
-10.  宠汪汪强制为好友助力(刷好友)([jd_joy_help.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_help.js))
-11.  宠汪汪赛跑助力([jd_joy_run.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_run.js))
-12.  宠汪汪聚宝盆辅助脚本([jd_petTreasureBox.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_petTreasureBox.js))
-13.  取关京东店铺和商品([jd_unsubscribe.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js))
-14.  东东超市([jd_superMarket.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js))
-15.  东东超市兑换奖品([jd_blueCoin.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js))
-16.  进店领豆([jd_shop.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js))
-17.  摇京豆([jd_club_lottery.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_club_lottery.js))
-18.  全名开红包([jd_redPacket.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js))
-19.  京东多合一签到([jd_bean_sign.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_sign.js)) 【可N个京东账号，Node.js专用，核心脚本是JD_DailyBonus.js，iOS软件用户请使用NobyDa的 [JD_DailyBonus.js](https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js) 】
-20.  京豆变动通知([jd_bean_change.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js))
-21.  京喜工厂([jd_dreamFactory.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_dreamFactory.js))
-22.  东东小窝([jd_small_home.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_small_home.js))
-23.  东东工厂([jd_jdfactory.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdfactory.js))
-24.  点点券([jd_necklace.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_necklace.js))
-25.  十元街([jd_syj.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_syj.js))
-26.  京东金融-天天提鹅([jd_daily_egg.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_daily_egg.js))
-27.  京东金融-养猪猪([jd_pigPet.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pigPet.js))
-28.  以及其他一部分在特定时间可用的薅京豆脚本：[手机狂欢城](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_818.js) 、[星推官](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_xtg.js) 、[双十一活动领金币](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_collectProduceScore.js) 、[热8超级盲盒](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_mohe.js)
-29.  Webhook触发Action([webhook.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/webhook.js))
+#### 说明
 
-搬运脚本
-1.  【[@yangtingxiao](https://github.com/yangtingxiao)】京东抽奖机([jd_lotteryMachine.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_lotteryMachine.js))
-2.  【[@yangtingxiao](https://github.com/yangtingxiao)】京东排行榜([jd_rankingList.js](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_rankingList.js))
+1. 其中 [jd_bean_sign.js](./jd_bean_sign.js) 可N个京东账号，Node.js专用，核心脚本是JD_DailyBonus.js， IOS软件用户请使用NobyDa的 JD_DailyBonus.js
 
-**脚本兼容: [QuantumultX](https://apps.apple.com/us/app/quantumult-x/id1443988620), [Surge](https://apps.apple.com/us/app/surge-4/id1442620678), [Loon](https://apps.apple.com/us/app/loon/id1373567447), 小火箭, JSBox, Node.js**
+2. 以字母排序。
 
-**TODO**
+<!-- 这是隐藏信息，用来给 update_list.sh 脚本提供标记信息的，用于自动生成下面的脚本清单，请勿删除这里的标记信息。 -->
+<!-- 此表格由 update_list.sh 脚本自动生成，请不要人工修改。 -->
+<!-- 清单标记开始 -->
 
-- [ ] 东东工厂相互助力
-- [ ] 京喜工厂相互助力
+| 序号 | 文件                                             | 名称                     | 活动入口                                                     |
+| :--: | ------------------------------------------------ | ------------------------ | ------------------------------------------------------------ |
+|  1   | [jd_bean_change.js](./jd_bean_change.js)         | 京东资产变动通知         |                                                              |
+|  2   | [jd_bean_home.js](./jd_bean_home.js)             | 领京豆额外奖励           | 京东APP首页-领京豆                                           |
+|  3   | [jd_bean_sign.js](./jd_bean_sign.js)             | 京东多合一签到           | 各处的签到汇总                                               |
+|  4   | [jd_beauty.js](./jd_beauty.js)                   | 美丽研究院               | 京东app首页-美妆馆-底部中间按钮                              |
+|  5   | [jd_blueCoin.js](./jd_blueCoin.js)               | 东东超市兑换奖品         | 京东APP我的-更多工具-东东超市                                |
+|  6   | [jd_bookshop.js](./jd_bookshop.js)               | 口袋书店                 | 京东app首页-京东图书-右侧口袋书店                            |
+|  7   | [jd_car_exchange.js](./jd_car_exchange.js)       | 京东汽车兑换             | 京东APP首页-京东汽车-屏幕右中部，车主福利                    |
+|  8   | [jd_car.js](./jd_car.js)                         | 京东汽车                 | 京东APP首页-京东汽车-屏幕右中部，车主福利                    |
+|  9   | [jd_cash.js](./jd_cash.js)                       | 签到领现金               | 京东APP搜索领现金进入                                        |
+|  10  | [jd_cfd.js](./jd_cfd.js)                         | 京喜财富岛               | 京喜APP-我的-京喜财富岛                                      |
+|  11  | [jd_club_lottery.js](./jd_club_lottery.js)       | 摇京豆                   | 京东APP首页-领京豆-摇京豆/京东APP首页-我的-京东会员-摇京豆   |
+|  12  | [jd_crazy_joy_bonus.js](./jd_crazy_joy_bonus.js) | 监控crazyJoy分红         | 京东APP我的-更多工具-疯狂的JOY                               |
+|  13  | [jd_crazy_joy_coin.js](./jd_crazy_joy_coin.js)   | crazyJoy挂机             | 京东APP我的-更多工具-疯狂的JOY                               |
+|  14  | [jd_crazy_joy.js](./jd_crazy_joy.js)             | crazyJoy任务             | 京东APP我的-更多工具-疯狂的JOY                               |
+|  15  | [jd_daily_egg.js](./jd_daily_egg.js)             | 天天提鹅                 | 京东金融-天天提鹅                                            |
+|  16  | [jd_daily_lottery.js](./jd_daily_lottery.js)     | 小鸽有礼-每日抽奖        | 惊喜-》我的-》寄件服务-》寻味四季-》右侧瓜分千万京豆         |
+|  17  | [jd_delCoupon.js](./jd_delCoupon.js)             | 删除优惠券               | 京东APP我的-优惠券                                           |
+|  18  | [jd_dreamFactory.js](./jd_dreamFactory.js)       | 京喜工厂                 | 京东APP-游戏与互动-查看更多-京喜工厂                         |
+|  19  | [jd_family.js](./jd_family.js)                   | 京东家庭号               | 玩一玩-家庭号                                                |
+|  20  | [jd_fanslove.js](./jd_fanslove.js)               | 粉丝互动                 |                                                              |
+|  21  | [jd_fruit.js](./jd_fruit.js)                     | 东东农场                 | 京东APP我的-更多工具-东东农场                                |
+|  22  | [jd_getFanslove.js](./jd_getFanslove.js)         | 粉丝互动活动获取         |                                                              |
+|  23  | [jd_get_share_code.js](./jd_get_share_code.js)   | 获取互助码               |                                                              |
+|  24  | [jd_health_collect.js](./jd_health_collect.js)   | 东东健康社区收集能量收集 | 京东APP首页搜索 "玩一玩"即可                                 |
+|  25  | [jd_health.js](./jd_health.js)                   | 东东健康社区             | 京东APP首页搜索 "玩一玩"即可                                 |
+|  26  | [jd_jdfactory.js](./jd_jdfactory.js)             | 东东工厂                 | 京东APP首页-数码电器-东东工厂                                |
+|  27  | [jd_jdzz.js](./jd_jdzz.js)                       | 京东赚赚                 | 京东赚赚小程序                                               |
+|  28  | [jd_jin_tie.js](./jd_jin_tie.js)                 | 领金贴                   | 京东APP首页-领金贴                                           |
+|  29  | [jd_joy_feedPets.js](./jd_joy_feedPets.js)       | 宠汪汪🐕喂食              | 京东APP我的-更多工具-宠汪汪                                  |
+|  30  | [jd_joy_help.js](./jd_joy_help.js)               | 宠汪汪强制为别人助力     | 京东APP我的-更多工具-宠汪汪                                  |
+|  31  | [jd_joy.js](./jd_joy.js)                         | 宠汪汪                   | 京东APP我的-更多工具-宠汪汪                                  |
+|  32  | [jd_joy_reward_20.js](./jd_joy_reward_20.js)     | 宠汪汪积分兑换奖品       | 京东APP我的-更多工具-宠汪汪                                  |
+|  33  | [jd_joy_reward.js](./jd_joy_reward.js)           | 宠汪汪积分兑换奖品       | 京东APP我的-更多工具-宠汪汪                                  |
+|  34  | [jd_joy_run.js](./jd_joy_run.js)                 | 宠汪汪赛跑               | 京东APP我的-更多工具-宠汪汪                                  |
+|  35  | [jd_joy_steal.js](./jd_joy_steal.js)             | 宠汪汪偷好友积分与狗粮   | 京东APP我的-更多工具-宠汪汪                                  |
+|  36  | [jd_jump.js](./jd_jump.js)                       | 跳跳乐瓜分京豆           | 来客有礼(微信小程序)=>跳跳乐或京东APP=》首页=》母婴馆=》底部中间 |
+|  37  | [jd_jxnc.js](./jd_jxnc.js)                       | 京喜农场                 | 京喜APP我的-京喜农场                                         |
+|  38  | [jd_kd.js](./jd_kd.js)                           | 京东快递签到             |                                                              |
+|  39  | [jd_live.js](./jd_live.js)                       | 京东直播                 | 京东APP首页-京东直播                                         |
+|  40  | [jd_live_redrain.js](./jd_live_redrain.js)       | 超级直播间红包雨         |                                                              |
+|  41  | [jd_lotteryMachine.js](./jd_lotteryMachine.js)   | 京东抽奖机               | 京东APP中各种抽奖活动的汇总                                  |
+|  42  | [jd_market_lottery.js](./jd_market_lottery.js)   | 幸运大转盘               |                                                              |
+|  43  | [jd_moneyTree.js](./jd_moneyTree.js)             | 京东摇钱树               | 京东APP我的-更多工具-摇钱树，                                |
+|  44  | [jd_ms.js](./jd_ms.js)                           | 京东秒秒币               | 京东app-京东秒杀-签到领红包                                  |
+|  45  | [jd_necklace.js](./jd_necklace.js)               | 点点券                   | 京东APP-领券中心/券后9.9-领点点券                            |
+|  46  | [jd_nzmh.js](./jd_nzmh.js)                       | 女装盲盒抽京豆           | 京东app-女装馆-赢京豆                                        |
+|  47  | [jd_pet.js](./jd_pet.js)                         | 东东萌宠                 | 京东APP我的-更多工具-东东萌宠                                |
+|  48  | [jd_pigPet.js](./jd_pigPet.js)                   | 金融养猪                 | 京东金融养猪猪                                               |
+|  49  | [jd_plantBean.js](./jd_plantBean.js)             | 京东种豆得豆             | 京东APP我的-更多工具-种豆得豆                                |
+|  50  | [jd_price.js](./jd_price.js)                     | 京东保价                 | 京东保价                                                     |
+|  51  | [jd_rankingList.js](./jd_rankingList.js)         | 京东排行榜               | 京东APP首页-更多频道-排行榜-悬浮按钮                         |
+|  52  | [jd_redPacket.js](./jd_redPacket.js)             | 京东全民开红包           | 京东APP首页-领券-锦鲤红包。                                  |
+|  53  | [jd_sgmh.js](./jd_sgmh.js)                       | 闪购盲盒                 | 京东APP首页-闪购-闪购盲盒                                    |
+|  54  | [jd_shop.js](./jd_shop.js)                       | 进店领豆                 | 京东APP首页-领京豆-进店领豆                                  |
+|  55  | [jd_small_home.js](./jd_small_home.js)           | 东东小窝                 | 京东APP我的-游戏与更多-东东小窝                              |
+|  56  | [jd_speed.js](./jd_speed.js)                     | ✈️天天加速                | 京东APP我的-更多工具-天天加速                                |
+|  57  | [jd_speed_redpocke.js](./jd_speed_redpocke.js)   | 京东极速版红包           | 京东极速版-领红包                                            |
+|  58  | [jd_speed_sign.js](./jd_speed_sign.js)           | 京东极速版               | 京东极速版app-现金签到                                       |
+|  59  | [jd_superMarket.js](./jd_superMarket.js)         | 东东超市                 | 京东APP首页-京东超市-底部东东超市                            |
+|  60  | [jd_syj.js](./jd_syj.js)                         | 赚京豆                   | 赚京豆(微信小程序)-赚京豆-签到领京豆                         |
+|  61  | [jd_unsubscribe.js](./jd_unsubscribe.js)         | 取关京东店铺和商品       |                                                              |
+|  62  | [jx_sign.js](./jx_sign.js)                       | 京喜签到                 |                                                              |
+<!-- 清单标记结束 -->
+<!-- 此表格由 update_list.sh 脚本自动生成，请不要人工修改。 -->
+<!-- 这是隐藏信息，用来给 update_list.sh 脚本提供标记信息的，用于自动生成上面的脚本清单，请勿删除这里的标记信息。 -->
 
-## 食用方法
+**脚本兼容: QuantumultX, Loon, 小火箭, JSBox, Node.js**
 
-### 方法一：本地安装Node.js，下载本库脚本
+## 邀请码互助
 
-  - 教程请见：[EvineDeng/jd-base](https://github.com/EvineDeng/jd-base)，适用于以下系统：
+- [获取各类活动互助码脚本 jd_get_share_code.js](./jd_get_share_code.js)
 
-    1. Armbian/OpenWrt/Debian/Ubuntu/CentOS/Fedora/RedHat等Linux系统
+- [邀请码使用规范](githubAction.md#互助码类环境变量)(仅限云端)
 
-    2. Android
+- [环境变量集合](./githubAction.md)
 
-    3. MacOS
+- 获取京东cookie教程可参考：
+  
+  + [浏览器获取京东cookie教程](./backUp/GetJdCookie.md)
+    
+  + [插件获取京东cookie教程](./backUp/GetJdCookie2.md)
+    
+  + 京东APP扫码获取cookie(此种方式获取的cookie有效期为90天)(执行`node getJDCookie.js`即可)
 
-### 方法二：云服务器、腾讯云函数等等
+##### 获取京东cookie [JD_extra_cookie.js](./JD_extra_cookie.js)
 
-  - 需自行有云服务器，云函数等
-  - 腾讯云云函数 [快速部署教程](tencentscf.md)（免费）
-  - 腾讯云云函数控制台使用 [教程说明](iCloud.md)
-  - 腾讯云云函数 [GitHub Action部署教程](tencentscf.md#github-action-部署)
-       
- 
-### 方法三：Docker（NAS或VPS用户）
-
- - 可以精确控制任务运行时间，有二种办法：[docker办法一](https://github.com/lxk0301/jd_scripts/tree/master/docker)、[docker办法二（和本地安装Node.js类似）](https://github.com/EvineDeng/jd-base)
- - [环境变量](https://github.com/lxk0301/jd_scripts/blob/master/githubAction.md#%E4%B8%8B%E6%96%B9%E6%8F%90%E4%BE%9B%E4%BD%BF%E7%94%A8%E5%88%B0%E7%9A%84-secrets%E5%85%A8%E9%9B%86%E5%90%88)
- 
-#### 注：以上三种运行机制都是Node.js，故您需仔细阅读下面几点
-
-
-  - 如果使用方法一与方法二，需自行提供京东cookie填写到 [jdCookie.js](https://github.com/lxk0301/jd_scripts/blob/master/jdCookie.js) 里面
-
-   
-  - 获取京东cookie教程可参考 [浏览器获取京东cookie教程](https://github.com/lxk0301/jd_scripts/blob/master/backUp/GetJdCookie.md) , [插件获取京东cookie教程](https://github.com/lxk0301/jd_scripts/blob/master/backUp/GetJdCookie2.md)
-
-  - 方法三Docker安装Cookie请见各自的说明。
-
-### 方法四：iOS系统的代理软件（QuantumultX, Surge, Loon, 小火箭）
-
-#### 以下内容只针对iOS用户
-
-#### ios使用多个京东账号，需要使用BoxJs保存多会话进行切换 
-
-##### BoxJs简单说明可看作者[BoxJs仓库地址](https://github.com/chavyleung/scripts/)
-
-使用box可以实现远程订阅助力好友(需订阅此 [链接](https://raw.githubusercontent.com/lxk0301/jd_scripts/master/lxk0301.boxjs.json))
-
-- [BoxJs使用教程](https://chavyleung.gitbook.io/boxjs/)
-
-- [BoxJs教程视频](https://youtu.be/eIpBrRxiy0w)
-
-
-【用box订阅的好处】
-
- 1、脚本也可以远程挂载。京东活动助力功能的分享码只需在box里面填写。以后只需远程更新就行。
-
- 2、所有脚本的cookie都可以备份，方便你迁移到其他支持box的软件。
-
- 3、box可以支持多账号
-
-
-### 特别感谢(排名不分先后)：
-* [@NobyDa](https://github.com/NobyDa)
-
-* [@chavyleung](https://github.com/chavyleung)
-
-* [@liuxiaoyucc](https://github.com/liuxiaoyucc)
-
-* [@Zero-S1](https://github.com/Zero-S1)
-
-* [@uniqueque](https://github.com/uniqueque)
-
-
-* [@nzw9314](https://github.com/nzw9314)
